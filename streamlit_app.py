@@ -9,7 +9,7 @@ with st.container():
     st.image("https://cdn.prod.website-files.com/66c72983bae166134aceff30/66c72e9088b2843fa5edb28d_Sailor%20Logo%20Green-p-500.png", width=300)
 
     # Calculate day difference and display counter
-    start_date = datetime.date(2024, 7, 1)  # August 1, 2024
+    start_date = datetime.date(2024, 8, 12)  # August 
     current_date = datetime.date.today()
     day_diff = (current_date - start_date).days + 1
 
